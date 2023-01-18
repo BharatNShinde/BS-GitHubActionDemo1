@@ -2,31 +2,31 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>global.ScriptIncludeTest1</api_name>
+        <api_name>global.ScriptIncludeTest2</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <name>ScriptIncludeTest1</name>
-        <script><![CDATA[var ScriptIncludeTest1 = Class.create();
-ScriptIncludeTest1.prototype = {
+        <name>ScriptIncludeTest2</name>
+        <script><![CDATA[var ScriptIncludeTest2 = Class.create();
+ScriptIncludeTest2.prototype = {
     initialize: function() {
     },
 	
-	// feature development code goes here...
-	// some more feature code
-    type: 'ScriptIncludeTest1'
+	//some feature code...
+	//
+    type: 'ScriptIncludeTest2'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>bharats</sys_created_by>
-        <sys_created_on>2023-01-18 08:09:10</sys_created_on>
-        <sys_id>340349d01bec6110a0ab99f1b24bcbe7</sys_id>
+        <sys_created_on>2023-01-18 12:04:16</sys_created_on>
+        <sys_id>aef87d941b24a110a0ab99f1b24bcb95</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>ScriptIncludeTest1</sys_name>
+        <sys_name>ScriptIncludeTest2</sys_name>
         <sys_package display_value="BS-GitHubActionDemo1" source="cbd281d01bec6110a0ab99f1b24bcb7c">cbd281d01bec6110a0ab99f1b24bcb7c</sys_package>
         <sys_policy/>
         <sys_scope display_value="BS-GitHubActionDemo1">cbd281d01bec6110a0ab99f1b24bcb7c</sys_scope>
-        <sys_update_name>sys_script_include_340349d01bec6110a0ab99f1b24bcbe7</sys_update_name>
+        <sys_update_name>sys_script_include_aef87d941b24a110a0ab99f1b24bcb95</sys_update_name>
         <sys_updated_by>bharats</sys_updated_by>
-        <sys_updated_on>2023-01-18 11:43:32</sys_updated_on>
+        <sys_updated_on>2023-01-18 12:59:32</sys_updated_on>
     </sys_script_include>
 </record_update>
